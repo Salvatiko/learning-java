@@ -9,6 +9,13 @@ public class Contado{
 		Contado contador1 = new Contado();
 		int retorno = contador1.getCount();
 		System.out.println(retorno);
+		contador1.incrementCount();
+		retorno = contador1.getCount();
+		System.out.println(retorno);
+		contador1.decrementCount();
+		contador1.decrementCount();
+		retorno = contador1.getCount();
+		System.out.println(retorno);
 	}
 	
 }
