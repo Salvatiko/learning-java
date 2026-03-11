@@ -10,12 +10,10 @@ public class Contado{
 		int retorno = contador1.getCount();
 		System.out.println(retorno);
 		contador1.incrementCount();
-		retorno = contador1.getCount();
-		System.out.println(retorno);
+		System.out.println(contador1.getCount());
 		contador1.decrementCount();
 		contador1.decrementCount();
-		retorno = contador1.getCount();
-		System.out.println(retorno);
+		System.out.println(contador1.getCount());
 	}
 	
 }
