@@ -15,7 +15,7 @@ public class Ex1 {
 		System.out.println("Soma: " + z);	
 	}
     public static void sub(int v, int w){
-		System.out.println("Subtracao " + (v+w));	
+		System.out.println("Subtracao: " + (v-w));	
 	}
     public static void mult(int c, int d){
 		int g = c * d;
