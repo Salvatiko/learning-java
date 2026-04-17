@@ -1,14 +1,8 @@
 public class Endereco{ //Classe Entidade
 
 	//Atributos
-	private String rua;
-	private int num; 
-	
-	//def
-	public Endereco(){
-		String rua = "";
-		num = 0;
-	}
+	private String rua = "";
+	private int num = 0; 
 
 	//getters
 	public String getRua(){
